@@ -4,7 +4,7 @@ $field_name = $_POST['name'];
 $field_email = $_POST['email'];
 $field_message = $_POST['text'];
 
-$mailTo = "davidajfilms@gmail.com"
+$mailTo = " hola@davidajfilms.com "
 $headers = "From: ".$fiel_email;
 $txt = "You have recieved an email from ".$name.".\n\n".$field_message;
 
