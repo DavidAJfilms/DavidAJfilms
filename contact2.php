@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
 $field_name = $_POST['name'];
 $field_email = $_POST['email'];
-$field_message = $_POST['text'];
+$field_message = $_POST['message'];
 
 $mailTo = " hola@davidajfilms.com "
 $headers = "From: ".$fiel_email;
