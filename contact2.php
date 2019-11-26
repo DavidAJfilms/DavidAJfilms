@@ -10,7 +10,4 @@ $txt = "You have recieved an email from ".$name.".\n\n".$field_message;
 
 mail($mail_to, $txt, $headers);
 header("Location: index.html?mailsent");
-
-
-mail()
 }
